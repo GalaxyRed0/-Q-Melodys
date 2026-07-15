@@ -1,0 +1,13 @@
+{
+  "VERSION": "1.5.2",
+  "WAVE_TYPES": ["square", "sine", "saw", "zigzag"],
+  "FREK_KALIN": [440, 494, 523, 587, 659],
+  "FREK_TIZ": [987, 1046, 1174, 1318, 1396],
+  "MODIFIERS": {
+    "REVERSE_START": "{",
+    "REVERSE_END": "}",
+    "LOOP_PATTERN": "loop\\((\\d+)\\)\\{\\s*([^}]+)\\s*\\}",
+    "CHORD_START": "[",
+    "CHORD_END": "]"
+  }
+}
